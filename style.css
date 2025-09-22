@@ -39,4 +39,17 @@ h1 {
 
 footer {
     text-align: center;
+
+}
+
+.green {
+    color: green;
+}
+
+.blue { 
+    color: blue;
+}
+
+.red {
+    color: red;
 }
