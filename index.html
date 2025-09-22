@@ -1,15 +1,15 @@
-<p>Favor<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>My Music Page</title>
+    <link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
-  <main>
-  <h1>My Music Page</h1>
-    <p>This is a page all about the music and artists I like!</p>
+    <header id="main_page_header">My Music Page</header>
+  <main id = "page1_content">
+    <h1>This is a page all about the music and artists I like!</h1>
     <section>
-    <h3>Morgan Wallen</h3>
+    <article id = "Morgan_Wallen">Morgan Wallen</article>
     <p>Morgan Wallen is an American country singer, songwriter, and performer. 
        He is known for his wide variety of country music.</p>
 
@@ -18,32 +18,40 @@
              alt="Morgan Wallen" width="300">
     </a>
     </section>
-    </p>My Favorite Songs:</p>
-    <ul>
-        <li>7 Summers</li>
-        <li>I Got Better</li>
-        <li>Chasin' You</li>
-    </ul>
+    <div id="song_album_wrapper">
+        <section id = "songs">
 
-    <p>Best Albums:</p>
-    <ol>
-        <li>I'm The Problem</li>
-        <li>One Thing At A Time</li>
-        <li>Dangerous</li>
-    </ol>
-
-    <p>Learn more about Morgan Wallen 
+            <p class = "subheader">My Favorite Songs:</p>
+            <ul style="display: flex; flex-direction: column; align-items: center; list-style-position: inside;">
+                <li>7 Summers</li>
+                <li>I Got Better</li>
+                <li>Chasin' You</li>
+            </ul>
+        </section>
+        <section id = "albums">
+        <h3 class = "subheader">Best Albums:</h3>
+            <ol style="display: flex; flex-direction: column; align-items: center; list-style-position: inside;">
+                <li>I'm The Problem</li>
+                <li>One Thing At A Time</li>
+                <li>Dangerous</li>
+            </ol>
+        </section>
+    </div>
+    <p class = "button" style="display: flex; flex-direction: column;align-items: center; list-style-position: center;">Learn more about Morgan Wallen 
        <a href="https://en.wikipedia.org/wiki/Morgan_Wallen" target="_blank">here</a>
     </p>
-
-    <h4>See My Other Favorite Artists</h4>
-    <ul>
-        <li><a href="https://en.wikipedia.org/wiki/Luke_Combs" target="_blank">Luke Combs</a></li>
-        <li><a href="https://en.wikipedia.org/wiki/Chris_Stapleton" target="_blank">Chris Stapleton</a></li>
-    </ul>
-      <footer>
+    <nav id = "footer">
+    <h4 class = "header">See My Other Favorite Artists</h4>
+    <div class="flex-container">
+        <ul>
+            <div class="box"><li class = "button"><a href="https://en.wikipedia.org/wiki/Luke_Combs" target="_blank">Luke Combs</a></li> </div>
+            <div class="box"><li class = "button"><a href="https://en.wikipedia.org/wiki/Chris_Stapleton" target="_blank">Chris Stapleton</a></li></div>
+        </ul>
+    </div>
+    </nav>
+    <footer class = "button" style="display: flex; flex-direction: column;align-items: center; list-style-position: center;">
         <a href="page2.html">Read more on Page 2</a>
-      </footer>
+    </footer>
     </main>
 </body>
 </html>
