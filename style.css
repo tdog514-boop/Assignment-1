@@ -1,5 +1,5 @@
 header {
-    background-color: rgb(236, 142, 229);
+    background-color: rgb(54, 103, 216);
     text-align: center;
 }
 
@@ -13,7 +13,7 @@ h3 {
 }
 
 body {
-    background-color: #6197ca;
+    background-color: rgb(54, 103,216);
     font-size: 15px;
 }
 
@@ -39,6 +39,7 @@ p {
 
 h1 {
     text-align: center;
+    font-weight: bold;
 }
 
 footer {
@@ -60,7 +61,7 @@ footer {
 }
 
 .button {
-    background-color: rgb(235, 143, 143);
+    background-color: rgb(168, 165, 165);
     color: rgb(0, 0, 0);
     padding: 15px;
     text-align: center;
@@ -69,8 +70,9 @@ footer {
 }
 
 #main_page_header {
-    background-color: rgb(236, 142, 229);
+    background-color: rgb(168, 165, 165);
     text-align: center;
+    font-size: 30;
 }
 
 #page1_content {
@@ -78,7 +80,15 @@ footer {
     padding: 20px;
     border: 2px solid black;
     border-radius: 10px;
-    background-color: rgb(155, 155, 155);
+    background-color: rgb(168, 165, 165);
+}
+
+#page2_content {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(168, 165, 165);
 }
 
 #morgan_wallen {
@@ -91,7 +101,7 @@ footer {
 }
 
 .box {
-  background-color: lightgray;
+  background-color: rgb(54, 103, 216);
   padding: 20px;
   margin: 10px;
   text-align: center;
@@ -114,38 +124,6 @@ footer {
   flex: 1;
 }
 
-@media screen and (max-width: 768px) {
-    body {
-        background-color: #80b3e0;
-        font-size: 12px;
-    }
-
-    img {
-        width: 80%;
-    }
-
-    #song_album_wrapper {
-        flex-direction: column;
-    }
-
-    h1, h3, h4 {
-        font-size: 18px;
-    }
-
-    .button {
-        font-size: 12px;
-        padding: 10px;
-    }
-
-    #page1_content {
-        margin: 10px;
-        padding: 10px;
-    }
-
-    footer {
-        font-size: 12px;
-    }
-}
 
 
 
